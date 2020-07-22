@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myHeading">Hello World!</h1>
+
+    <div id="myDiv"></div>
+
+    <script>
+
+        // console.log(document)
+
+       console.log(document.getElementById('myHeading').id)
+
+    document.getElementById('myHeading').textContent = 'Goodbye World!'
+
+//    .classList.add('red') will give another class called red and make red
+
+    document.getElementById('myDiv').innerHTML = `
+        <input type="text">
+        <button>Click</button>
+        `
+    </script>
+</body>
+</html>
